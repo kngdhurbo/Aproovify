@@ -34,7 +34,7 @@ st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home / Project Info", "Exploratory Data Analysis", "Live Prediction"])
 
 if page == "Home / Project Info":
-    st.title("🏦 Approvify: Loan Approval Prediction System")
+    st.title("🏦 Aprovify: Loan Approval Prediction System")
     st.write("Welcome to the Approvify Analytics & Prediction System.")
     st.markdown("""
     This application serves bank loan officers and data analysts by providing two primary functions:
@@ -188,4 +188,5 @@ elif page == "Live Prediction":
                         st.write(f"Confidence Score: **{confidence:.1f}%**")
             except Exception as e:
                 st.error(f"An error occurred during prediction: {str(e)}")
+
 
