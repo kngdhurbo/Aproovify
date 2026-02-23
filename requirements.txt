@@ -4,3 +4,10 @@ plotly
 scikit-learn==1.7.2
 joblib
 streamlit>=1.30.0
+# redeploy trigger
+
+
+
+
+
+
