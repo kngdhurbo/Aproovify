@@ -24,7 +24,7 @@ def load_data():
     except Exception as e:
         return None
 
-st.set_page_config(page_title="LoanGuard: AI-Powered Credit Assessment", page_icon="🏦", layout="wide")
+st.set_page_config(page_title="Aprovify", page_icon="🏦", layout="wide")
 
 # Load assets
 df = load_data()
@@ -188,3 +188,4 @@ elif page == "Live Prediction":
                         st.write(f"Confidence Score: **{confidence:.1f}%**")
             except Exception as e:
                 st.error(f"An error occurred during prediction: {str(e)}")
+
